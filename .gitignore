@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+lib/
+*.tsbuildinfo
+
+# Environment and credentials - NEVER COMMIT THESE
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*credentials*.json
+google-credentials.json
+serviceAccount*.json
+firebase-adminsdk*.json
+
+# Expo
+.expo/
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+coverage/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Voice backend generated audio and uploads
+voice-backend/output/
+voice-backend/uploads/
+
+# Personal setup notes
+android-env-setup.txt
