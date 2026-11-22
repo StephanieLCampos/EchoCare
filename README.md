@@ -25,8 +25,9 @@ API keys stay on the server, behind callable functions and Firebase Secret Manag
 
 ## My contributions
 
-- Built the **voice-cloning microservice** (`voice-backend/`), a Node.js and Express service that integrates the ElevenLabs API. It clones a voice from a 30-second sample and generates personalized reminder audio, with a translation fallback chain.
-- Worked on the **backend and Firestore** data layer for users, care recipients, medications, and reminders.
+- Implemented the **AI voice pipeline** with ElevenLabs and Google Cloud Translation: voice cloning from a 30-second sample, translation into 9 languages, and multilingual text-to-speech in the caregiver's voice.
+- Built the **Firebase backend** for it: Cloud Functions for voice cloning and text-to-speech, the Firestore data model for users, care recipients, medications, and reminders, and audio storage in Firebase Storage, with API keys kept in Secret Manager.
+- Built the **Express voice service** (`voice-backend/`), a local-development version of the pipeline with a translation fallback chain.
 
 ## Tech stack
 
